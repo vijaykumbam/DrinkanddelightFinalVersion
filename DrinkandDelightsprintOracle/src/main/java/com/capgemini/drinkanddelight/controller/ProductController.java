@@ -96,7 +96,6 @@ public class ProductController {
 		boolean result = productorderservicei.updateDistributor(distributorId, name, address, phonenumber);
 		if(result == false)throw new DistributorNotFoundException(" Can't Update your data ");
 		return new ResponseEntity<String>("Your details updated successfully",HttpStatus.OK);
-		
 	}
 	
 	

@@ -71,11 +71,7 @@ public class ProductOrderServiceImpl implements ProductOrderServiceI {
 	}
 
 
-//	@Override
-//	public boolean deleteDistributor(String distributorId) {
-//		System.out.println("hello in service");
-//		return productorderdaoi.deleteDistributor(distributorId);
-//	}
+
 
 
 

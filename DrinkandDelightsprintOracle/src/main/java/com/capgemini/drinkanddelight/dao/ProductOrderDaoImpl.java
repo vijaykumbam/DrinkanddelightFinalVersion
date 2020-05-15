@@ -116,21 +116,13 @@ public List<ProductOrder>  displayIdwithStatus(String id, String status) {
 	}
 
 
-
-//	@Override
-//	public boolean deleteDistributor(String distributorId) {
-//		Distributor result = entityManager.find(Distributor.class, distributorId);
-//		if(result != null)
-//			{
-//			System.out.println("hello delte");
-//				entityManager.remove(result);
-//				return true;
-//			}
-//		return false;
-//	}
-
-
-
+	/* Json Format
+	 * This method is used to update the DistributoeDetails
+	 * Method 	 : updateDistributor
+	 * Type 	 : boolean
+	 * Author 	 : VijayKumbam
+	 * Date 	 : 23/04/2020
+	 */
 	@Override
 	public boolean updateDistributor(String distributorId,String name,String address,long phonenumber) {
 		Distributor result = entityManager.find(Distributor.class, distributorId);
